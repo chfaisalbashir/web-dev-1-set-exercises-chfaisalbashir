@@ -1,0 +1,83 @@
+/* Basic styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #dedef0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Styling for the navigation bar */
+nav {
+    background-color: #2c3e50;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the content */
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Styling for the section headers */
+h1, h2 {
+    color: #3a4550;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #c25494;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Styling for paragraphs and lists */
+p, ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Styling for the button link */
+.button-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #1e73ac;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.button-link:hover {
+    background-color: #1a6ba1;
+}
