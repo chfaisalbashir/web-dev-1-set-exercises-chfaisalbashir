@@ -1,5 +1,5 @@
-  /* Basic styling for the body */
-  body {
+   /* Basic styling for the body */
+   body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
     margin: 0;
@@ -24,8 +24,8 @@ h1 {
 }
 /* Styling for the section headers */
 h2 {
-    color: #2ebfc4;
-    border-bottom: 2px solid #8c7abe;
+    color: #2980b9;
+    border-bottom: 2px solid #2980b9;
     padding-bottom: 5px;
     margin-top: 20px;
 }
